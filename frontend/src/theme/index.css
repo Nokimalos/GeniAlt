@@ -1,0 +1,29 @@
+/* Import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+  font-family: 'Roboto' !important;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  height: 100vh !important;
+  width:100vw !important;
+  scroll-behavior: smooth;
+}
+
+*, *::after, *::before {
+  height: 100%;
+  width: 100%;
+}
+
+*, *::after, *::before::-webkit-scrollbar {
+  width: '4px',
+}
+*, *::after, *::before::-webkit-scrollbar-track {
+  width: '6px',
+}
+*, *::after, *::before::-webkit-scrollbar-thumb {
+  background: scrollbarColor,
+}
